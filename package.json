@@ -2,11 +2,14 @@
   "name": "conecta4",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://gonz92alex.github.io/connect_4",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -32,6 +35,7 @@
     "eslint": "^8.11.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-react": "^7.29.4",
+    "gh-pages": "^3.2.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
     "jest-circus": "^27.5.1",
