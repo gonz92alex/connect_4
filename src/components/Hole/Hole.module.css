@@ -1,0 +1,29 @@
+.hole{
+    box-sizing: border-box;
+    display: flex;
+    border: 1px solid blue;
+    align-items: center;
+    padding: 1%;
+    background-color: azure;
+    aspect-ratio: 1;
+}
+
+.piece{
+    width: 75%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+.player1{
+    background-color: blue;
+}
+
+.player2{
+    background-color: red;
+}
+
+.empty{
+    background-color: grey;
+}
